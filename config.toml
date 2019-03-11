@@ -1,0 +1,4 @@
+baseURL = "https://proceedings.juliacon.org/"
+languageCode = "en-us"
+title = "JuliaCon Proceedings"
+theme = "juliacon"

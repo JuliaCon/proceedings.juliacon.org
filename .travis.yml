@@ -10,12 +10,7 @@ script:
 
 after_success:
   provider: script
-  script: 
-    - mkdir ~/.ssh
-    - base64 -d <<< "${DEPLOY_KEY}" > ~/.ssh/id_rsa
-    - chmod 600 ~/.ssh/id_rsa
-    - chmod 700 ~/.ssh
-    - ./deploy.sh
+  script: bash contrib/travis_deploy.sh
   skip_cleanup: true
   on:
     branch: master 

@@ -10,7 +10,7 @@ script:
 
 after_success:
   provider: script
-  script: bash contrib/travis_deploy.sh
+  script: contrib/travis_deploy.sh
   skip_cleanup: true
   on:
     branch: master 

@@ -24,6 +24,7 @@ hugo
 echo "Updating gh-pages branch"
 pushd public
 echo proceedings.juliacon.org >> CNAME
+touch .nojekyll
 git add --all
 git commit -m "Publishing to gh-pages"
 git push origin gh-pages

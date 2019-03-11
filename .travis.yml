@@ -7,6 +7,8 @@ install:
 
 script:
   - hugo -v
+  - touch public/.nojekyll
+  - echo proceedings.juliacon.org > public/CNAME
 
 deploy:
   provider: pages

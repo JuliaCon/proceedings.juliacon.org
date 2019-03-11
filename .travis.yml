@@ -1,0 +1,21 @@
+env:
+  global:
+    - HUGO=0.54
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO}/hugo_${HUGO}_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+
+script:
+  - hugo -v
+
+deploy:
+  - provider: script
+    script: 
+      - mkdir ~/.ssh
+      - base64 -d <<< "${DEPLOY_KEY}" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+      - chmod 700 ~/.ssh
+      - ./deploy.sh
+    skip_cleanup: true
+    on:
+      branch: master 

@@ -2,7 +2,7 @@ env:
   global:
     - HUGO=0.54
 install:
-  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO}/hugo_${HUGO}_Linux-64bit.deb
+  - wget -O /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO}/hugo_${HUGO}_Linux-64bit.deb"
   - sudo dpkg -i /tmp/hugo.deb
 
 script:

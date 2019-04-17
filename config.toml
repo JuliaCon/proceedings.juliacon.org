@@ -1,25 +1,3 @@
 baseURL = "https://proceedings.juliacon.org/"
 languageCode = "en-us"
 title = "JuliaCon Proceedings"
-
-[menu]
-  [[menu.main]]
-    identifier = "authors-guide"
-    name = "Author's Guide"
-    url = "/guide/authors"
-
-  [[menu.main]]
-    identifier = "reviewers-guide"
-    name = "Reviewer's Guide"
-    url = "/guide/reviewers"
-
-  [[menu.main]]
-    identifier = "coc"
-    name = "Code of Conduct"
-    url = "/coc"
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-

@@ -5,3 +5,4 @@ draft: false
 kind: single
 ---
 
+This website hosts the information for the proceedings of JuliaCon.

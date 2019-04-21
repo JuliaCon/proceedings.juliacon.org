@@ -6,6 +6,12 @@ kind: single
 ---
 
 # About {#about}
+
+The JuliaCon Proceedings is an open-access journal published in
+cooperation with the [The Open Journals](http://www.theoj.org/).
+
+It is a volunteer driven effort to provide proceedings for the JuliaCon conference.
+
 ## Code of Conduct {#code_of_conduct}
 
 Although spaces may feel informal at times, we want to remind authors and reviewers (and anyone else) that this is a professional space. As such,
@@ -31,12 +37,21 @@ The JuliaCon Proceedings Editors will track any concerns and respond to the subm
 which will range from doing nothing if the editors disagree about the issue to withdrawing papers and notifying authors' institutions.
 
 ## Content Licensing & Open Access {#content_license}
+
+The JuliaCon Proceedings is an open access journal. Copyright of JuliaCon proceedings papers
+is retained by submitting authors and accepted papers are subject to a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/").
+Any code snippets included in JOSS papers are subject to the [MIT license](https://opensource.org/licenses/MIT)
+regardless of the license of the submitted software package under review.</p>
+
 ## Editorial Board {#editorial_board}
 
-## Author Guidelines {#author_guidelines}
-## Editor Guidelines {#editor_guidelines}
-## Reviewer Guidelines {#reviewer_guidelines}
+- Valentin Churavy (Massachussets Institute of Technology)
+- Mathieu Besançon (Polytechnique Montréal & INRIA Lille)
+
 ## Contact {#contacts}
+
+For questions about JuliaCon and the JuliaCon proceedings please contact <juliacon@julialang.org>.
+For editoral concerns please reach out to <v.churavy@gmail.com> directly.
 
 ## Relationship with other projects
 ### The Open Journals

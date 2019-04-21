@@ -45,8 +45,8 @@ regardless of the license of the submitted software package under review.</p>
 
 ## Editorial Board {#editorial_board}
 
-- Valentin Churavy (Massachussetts Institute of Technology)
-- Mathieu Besançon (Polytechnique Montréal & INRIA Lille)
+- Valentin Churavy, **@vchuravy** (Massachussetts Institute of Technology)
+- Mathieu Besançon, **@matbesancon** (Polytechnique Montréal & INRIA Lille)
 
 ## Contact {#contacts}
 

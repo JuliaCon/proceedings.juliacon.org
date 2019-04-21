@@ -10,7 +10,7 @@ kind: single
 The role of reviewers is to ensure the quality of the content associated with
 JuliaCon including proceedings and extended abstracts.
 
-## Conflict of interest
+## Conflict of interest {#coi}
 
 In any case of conflict of interest, the reviewer commits to withdraw from a
 review and signal it to the organizers to find a replacement quickly.

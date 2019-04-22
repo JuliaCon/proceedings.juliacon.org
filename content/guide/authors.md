@@ -12,7 +12,12 @@ a long form paper submission and a short form extended abstract.
 
 ## General guide
 
+### Required section {#what-should-my-paper-contain}
+### Submission requirements {#submission-requirements}
+
 ## Specifics
 ### Full paper submissions
 ### Extended abstract submissions
+
+## Example {#example-paper-and-bibliography}
 

@@ -5,6 +5,8 @@ draft: false
 kind: single
 ---
 
+This website hosts the information for the proceedings of JuliaCon.
+
 # About {#about}
 
 The JuliaCon Proceedings is an open-access journal published in

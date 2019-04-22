@@ -20,6 +20,10 @@ understand the subject of the presentation in more depth.
 All submissions are reviewed with the same process as
 the [Journal of Open-Source Software](http://joss.theoj.org).
 
+### Required section {#what-should-my-paper-contain}
+
+### Submission requirements {#submission-requirements}
+
 ## Specifics
 
 ### Extended abstract submissions
@@ -30,3 +34,4 @@ It should be at most one page of content, excluding references.
 
 ### Full paper submissions
 
+## Example {#example-paper-and-bibliography}

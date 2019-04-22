@@ -22,16 +22,81 @@ the [Journal of Open-Source Software](http://joss.theoj.org).
 
 ### Required section {#what-should-my-paper-contain}
 
+The paper structure remains mostly up to the authors
+but should respect the following constraints:
+
+- An abstract with at most 600 characters, written in plain English with no symbol nor formula.
+- A list of at most 10 keywords as specified in the template, separated by commas and written in plain English.
+
+Using the template provided as a base is mandatory,
+as special generated sections are included, based on the `metadata.yml` file.
+
 ### Submission requirements {#submission-requirements}
+
+The submission is done through a GitHub repository
+containing a `paper` folder with the following files:
+
+```
+.
+├── paper.tex 
+├── ref.bib
+├── paper.yml
+├── header.tex
+├── jlcode.sty
+├── journal_dat.tex
+├── juliacon.bst
+├── juliacon.cls
+├── logojuliacon.pdf
+├── prep.rb
+├── bib.tex
+└── bib.rb
+```
+
+**Only the first 3 files should be edited**. Modifications to others will be
+over-written and replaced by the template version.
+All fields from `paper.yml` must be filled, including:
+
+1. `title`: The title of the paper
+2. `keywords`: The list of keywords, each put on a new entry as in the example.
+3. `authors`: All authors in the order in which they are listed. Providing all authors' `ORCID` is not mandatory but advised.
+4. `affiliations` for all authors
+5. `bibliography`: the name of the BibTeX file, including the `.bib` extension.
+
+We highly encourage the authors to create the `/paper` folder in their
+project repository, putting it alongside the code.
 
 ## Specifics
 
+**Important** The paper is built using the `latexmk` tool:
+
+```
+latexmk -bibtex -pdf paper.tex
+```
+
+This will re-generate `header.tex, bib.tex, journal_dat.tex` and build the final PDF.
+The LaTex document can be split in multiple files without problem, just keep
+`paper.tex` your main file.  
+
+To clean up the directory, use:
+
+```
+latexmk -c
+```
+
 ### Extended abstract submissions
 
-An extended abstract lays out the methodology and use cases
-of the work presented at the conference.
-It should be at most one page of content, excluding references.
+An extended abstract lays out in a concise fashion the methodology
+and use cases of the work presented at the conference.
+It should be at most one page of content excluding references.
 
 ### Full paper submissions
 
+A full paper details more of the background, context motivating
+the work, compares it to others in the field and gives
+some additional insights compared to the talk. Use cases
+back up the work by showing how it can be used.
+
 ## Example {#example-paper-and-bibliography}
+
+An example project will be published on GitHub and is available
+as OverLeaf template.

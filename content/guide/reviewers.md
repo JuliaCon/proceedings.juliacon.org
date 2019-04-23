@@ -39,3 +39,14 @@ Each review should include a general recommendation from the following list:
 In any case other than an acceptation as-is, the reviewer should provide the author with a list of
 comments they can use to improve their document for the next round, citing the corresponding parts
 of the documents, they should in all comments be as specific as possible.
+
+## Review process
+
+The review process is similar to the [Journal of Open-Source Software](http://joss.theoj.org)
+and takes place in a dedicated GitHub issue.
+A reviewer checklist is generated for each reviewer of the paper.
+A box should be checked only once the reviewer considers that the criterion is met by the work presented.
+
+**Note**: the checklist is meant as a general guide for reviewers and does not capture
+subject-specific best practices or notation consistency. The reviewer should feel free
+to indicate what they consider should be edited in the submitted work.

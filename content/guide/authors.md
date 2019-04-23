@@ -56,9 +56,9 @@ containing a `paper` folder with the following files:
 over-written and replaced by the template version.
 All fields from `paper.yml` must be filled, including:
 
-1. `title`: The title of the paper
-2. `keywords`: The list of keywords, each put on a new entry as in the example.
-3. `authors`: All authors in the order in which they are listed. Providing all authors' `ORCID` is not mandatory but advised.
+1. `title`: the title of the paper
+2. `keywords`: the list of keywords, each put on a new entry as in the example.
+3. `authors`: all authors in the order in which they are listed. Providing all authors' `ORCID` is not mandatory but advised.
 4. `affiliations` for all authors
 5. `bibliography`: the name of the BibTeX file, including the `.bib` extension.
 

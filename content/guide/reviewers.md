@@ -28,6 +28,11 @@ communications during the review process.
 If some content submitted to the Conference does not comply with the Code of Conduct,
 the reviewer should refer it to the organizing committee.
 
+## Submitted documents
+
+Submitted work comes in two types: extended abstracts and full papers.
+See the author guide for more information on both.
+
 ## Review comments
 
 Each review should include a general recommendation from the following list:

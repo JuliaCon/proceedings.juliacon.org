@@ -91,12 +91,15 @@ It should be at most one page of content excluding references.
 
 ### Full paper submissions
 
-A full paper details more of the background, context motivating
-the work, compares it to others in the field and gives
-some additional insights compared to the talk. Use cases
-back up the work by showing how it can be used.
+Compared to an extended abstract, a full paper presents more
+of the background and context motivating
+the work. It compares the work to other approaches taken in the
+field and gives some additional insights on the talk.
+Use cases back up the work by showing how it can be used.
 
 ## Example {#example-paper-and-bibliography}
 
-An example project will be published on GitHub and is available
-as OverLeaf template.
+An example project is available at [this repository](https://github.com/matbesancon/JuliaConSubmission.jl)
+and is available in read-only mode on [OverLeaf](https://www.overleaf.com/read/dqjbrhqxjpwq).
+The platform supports the build process and can be used for authors
+which cannot create the PDF locally.

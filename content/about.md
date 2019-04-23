@@ -55,7 +55,7 @@ regardless of the license of the submitted software package under review.</p>
 For questions about JuliaCon and the JuliaCon proceedings please contact <juliacon@julialang.org>.
 For editoral concerns please reach out to <v.churavy@gmail.com> directly.
 
-## Relationship with other projects
-### The Open Journals
-### NumFocus {#numfocus}
-### Cost and Sustainability Model {#costs}
+## Relationship with the Journal of Open-Source Software
+
+The JuliaCon proceeding submission infrastructure was developed based on the JoSS stack,
+and in partnership with the JoSS editorial team.

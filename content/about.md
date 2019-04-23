@@ -57,5 +57,5 @@ For editoral concerns please reach out to <v.churavy@gmail.com> directly.
 
 ## Relationship with the Journal of Open-Source Software
 
-The JuliaCon submission infrastructure was developed based on the JoSS stack,
+The JuliaCon proceeding submission infrastructure was developed based on the JoSS stack,
 and in partnership with the JoSS editorial team.

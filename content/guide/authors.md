@@ -99,7 +99,7 @@ Use cases back up the work by showing how it can be used.
 
 ## Example {#example-paper-and-bibliography}
 
-An example project is available at [this repository](https://github.com/matbesancon/JuliaConSubmission.jl)
+An example project is available at [this repository](https://github.com/JuliaCon/JuliaConSubmission.jl)
 and is available in read-only mode on [OverLeaf](https://www.overleaf.com/read/dqjbrhqxjpwq).
 The platform supports the build process and can be used for authors
 which cannot create the PDF locally.

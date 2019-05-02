@@ -9,6 +9,7 @@ kind: single
 
 The JuliaCon is accepting two different kinds of submission,
 a long form paper submission and a short form extended abstract.
+Submissions will close on the **7th of July**.
 
 ## General guide
 

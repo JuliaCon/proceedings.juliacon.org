@@ -10,7 +10,9 @@ kind: single
 The JuliaCon Proceedings is an open-access journal published in
 cooperation with the [The Open Journals](http://www.theoj.org/).
 
-It is a volunteer driven effort to provide proceedings for the JuliaCon conference.
+It is a volunteer driven effort to provide proceedings for the JuliaCon conference.  
+
+Proceedings can be submitted for JuliaCon 2019 till the **7th of July**.
 
 ## Code of Conduct {#code_of_conduct}
 

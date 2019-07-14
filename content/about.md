@@ -7,10 +7,12 @@ kind: single
 
 # About {#about}
 
-The JuliaCon Proceedings is an open-access journal published in
-cooperation with the [The Open Journals](http://www.theoj.org/).
+Papers in the JuliaCon Proceedings are [deliberately extremely short](https://www.arfon.org/announcing-the-journal-of-open-source-software) and only allowed to include
+* A short abstract describing the high-level functionality of the software (and perhaps a figure)
+* A list of the authors of the software (together with their affiliations)
+* A list of key references including a link to the software archive
 
-It is a volunteer driven effort to provide proceedings for the JuliaCon conference.  
+This is an open-access journal published in cooperation with the [The Open Journals](http://www.theoj.org/). It is a volunteer driven effort to provide proceedings for the JuliaCon conference.  
 
 Proceedings can be submitted for JuliaCon 2019 till the **7th of July**.
 

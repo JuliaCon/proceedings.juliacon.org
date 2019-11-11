@@ -13,15 +13,18 @@ jobs:
 
     - name: Setup
       uses: peaceiris/actions-hugo@v2.2.2
-        with:
-          hugo-version: 'latest'
+      with:
+        hugo-version: 'latest'
 
     - name: Build
-      run: hugo --minify
+      run: |
+          hugo --minify
+          touch ./public/.nojekyll
+          echo proceedings.juliacon.org > ./public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./public

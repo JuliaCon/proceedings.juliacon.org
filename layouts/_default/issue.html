@@ -1,0 +1,18 @@
+{{ define "main" }}
+    {{ .Content}}
+
+    <h2>List of papers</h2>
+    <ul>
+{{ range .Site.Data.papers }}
+    <li>
+    <p> {{ .title }}</p>
+    <p>
+    {{ range .authors }}
+        {{.givenname}} {{.surname}},
+    {{ end }}
+    </p>
+    <a href="{{absURL .DOI}}"> {{.DOI}} </a>
+</li>
+{{ end }}
+<ul>
+{{ end }}

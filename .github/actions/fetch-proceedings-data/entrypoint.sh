@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+mkdir workspace
+pushd workspace
+
 if ! git status > /dev/null 2>&1
 then
   echo "## Initializing git repo..."
@@ -26,10 +29,15 @@ echo "## Login into git..."
 git config --global user.email "juliacon@julialang.org"
 git config --global user.name "JuliaCon Committee"
 
+popd
 
-echo "### Running generator"
-touch data/papers.yml
+echo "## Clone"
+git clone --depth 1 https://github.com/JuliaCon/proceedings-papers
 
+echo "## Running generator"
+julia --project=. run.jl
+
+pushd workspace
 echo "## Staging changes..."
 git add .
 echo "## Commiting files..."

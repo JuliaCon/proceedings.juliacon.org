@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{ $paper := index $.Site.Data.papers $.Params.key }}
+    <h1> {{ $paper.title }}</h1>
+    <p>
+    {{ range $paper.authors }}
+        <a href="{{.ORCID}}" target="_blank"> {{.givenname}} {{.surname}}</a>
+    {{ end }}
+    </p>
+    <ul>
+      <li><a href="" target="_blank">DOI</a></li>
+      <li><a href="" target="_blank">PDF</a></li>
+    </ul>
+{{ end }}

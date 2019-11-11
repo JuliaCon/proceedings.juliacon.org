@@ -41,6 +41,15 @@ function main()
         article = convert_article(article)
         article[:DOI] = joinpath(DOI, paper)
         result[paper] = article
+
+        open(joinpath("workspace", "content", DOI, string(paper, ".md")), "w") do io
+                println(io, "---")
+                println(io, "title: ", '"', article[:DOI], " — ", article[:title], '"')
+                println(io, "kind: single")
+                println(io, "layout: paper")
+                println(io, "key: ", '"', paper, '"')
+                println(io, "---")
+        end
     end
 
     open("workspace/data/papers.json", "w") do io

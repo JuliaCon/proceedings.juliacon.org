@@ -1,0 +1,15 @@
+{
+  "jcon.00012": {
+    "authors": [
+      {
+        "order": "first",
+        "role": "author",
+        "ORCID": "http://orcid.org/0000-0003-0017-5890",
+        "givenname": "Nicolau",
+        "surname": "Werneck"
+      }
+    ],
+    "title": "ChipSort: a SIMD and cache-aware sorting module",
+    "DOI": "10.21105/jcon.00012"
+  }
+}

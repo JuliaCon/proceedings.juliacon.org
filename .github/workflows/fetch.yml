@@ -1,4 +1,9 @@
-on: repository_dispatch
+on:
+  repository_dispatch
+  push:
+    branches:
+    - master
+
 name: Fetch DB from deposit github
 jobs:
   fetch:
